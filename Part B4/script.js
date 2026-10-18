@@ -5,8 +5,10 @@ class Movie {
         this.title = title;
         this.year = year;
         this.rating = rating;
+
     }
 }
+
 
 // Unsorted Movie Array
 const movies = [
