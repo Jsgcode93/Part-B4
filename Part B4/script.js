@@ -79,3 +79,8 @@ function runSearch() {
         ? `Found: ID ${result.id} | ${result.title} (${result.year})` 
         : "null (Movie ID not found)";
 }
+// Binary Search Test: Found
+console.log("Searching for ID 107:", binarySearch(sortedMovies, 107));
+
+// Binary Search Test: Not Found
+console.log("Searching for ID 999:", binarySearch(sortedMovies, 999));
