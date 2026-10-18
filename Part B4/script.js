@@ -7,9 +7,9 @@ class Movie {
         this.rating = rating;
 
     }
+    
 }
-
-
+console.log("Movie Class", Movie);
 // Unsorted Movie Array
 const movies = [
     new Movie(105, "Spirited Away", 2001, "PG"),
@@ -23,6 +23,9 @@ const movies = [
     new Movie(110, "Jujutsu Kaisen", 2020, "TV-MA"),
     new Movie(108, "One Piece", 1999, "TV-14")
 ];
+
+// Log Unsorted Array to Console
+console.log("Unsorted Movies Array:", movies);
 
 // Display Unsorted List in HTML
 const unsortedList = document.getElementById("unsortedList");
