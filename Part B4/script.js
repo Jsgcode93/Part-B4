@@ -38,6 +38,8 @@ movies.forEach(m => {
 // Sort Array by ID in Ascending Order
 const sortedMovies = [...movies].sort((a, b) => a.id - b.id);
 
+console.log("Sorted Movies Array:", sortedMovies);
+
 // Display Sorted List in HTML
 const sortedList = document.getElementById("sortedList");
 sortedMovies.forEach(m => {
